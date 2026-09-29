@@ -1,0 +1,51 @@
+# CMake and build output
+/build/
+/cmake-build-*/
+/out/
+/bin/
+/lib/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj.user
+*.user
+*.suo
+*.VC.db
+*.opendb
+
+# Compiled binaries and intermediate files
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.res
+*.tlog
+*.lastbuildstate
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Application-generated layout
+window_grid.layout
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
