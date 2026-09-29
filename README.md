@@ -1,6 +1,6 @@
-# window_grid
+# panelinc
 
-`window_grid` is a lightweight Windows window workspace for people who need several tools visible at once. Drag terminals, Pi/Codex sessions, VS Code windows, browsers, or other applications into a grid and use them directly where they are docked.
+`panelinc` is a lightweight Windows window workspace for people who need several tools visible at once. Drag terminals, Pi/Codex sessions, VS Code windows, browsers, or other applications into a grid and use them directly where they are docked.
 
 It is useful for project workflows that need multiple windows without the overhead of a full desktop manager. Each window remains a real native Windows application, so its normal input, rendering, and behavior are preserved while it is hosted inside a grid cell.
 
@@ -60,7 +60,7 @@ cmake -S . -B build -Draylib_DIR=C:/path/to/raylib/build/src -DRAYGUI_DIR=C:/pat
 cmake --build build --config Release
 ```
 
-Run `build/Release/window_grid.exe` for a Visual Studio generator, or `build/window_grid.exe` for a single-configuration generator.
+Run `build/Release/window_grid.exe` for a Visual Studio generator, or `build/panelinc.exe` for a single-configuration generator.
 
 ## Notes
 
